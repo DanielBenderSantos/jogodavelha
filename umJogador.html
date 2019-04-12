@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/umJogador.css">
+    <script src="assets/js/umJogador.js"></script>
+</head>
+
+<body id="body">
+    <div id="responsivo">
+        <h1>Jogo da velha </h1>
+        <hr>
+        <div id="invisivel">
+            <p>
+                jogador 1:
+                <p id="saidaJogador1">
+                </p>
+                <hr>
+                <p>
+                    jogador 2:
+                    <p id="saidaJogador2">
+                    </p>
+
+        </div>
+        <div>
+            <button id="subButton" onclick="mudarBotao()">Mudar estilo do botão</button>
+        </div>
+        <p id="vencedor"></p>
+        <div>
+            <div>
+                <button id="b1" class="redondo" onclick="um()"></button>
+                <button id="b2" class="redondo" onclick="dois()"></button>
+                <button id="b3" class="redondo" onclick="tres()"></button>
+            </div>
+
+            <div>
+                <button id="b4" class="redondo" onclick="quatro()"></button>
+                <button id="b5" class="redondo" onclick="cinco()"></button>
+                <button id="b6" class="redondo" onclick="seis()"></button>
+            </div>
+
+            <div>
+                <button id="b7" class="redondo" onclick="sete()"></button>
+                <button id="b8" class="redondo" onclick="oito()"></button>
+                <button id="b9" class="redondo" onclick="nove()"></button>
+            </div>
+        </div>
+        <div id="vez">
+            Vez do jogador 1
+            <p id ="vez"></p>
+        </div>
+        <div>
+            <button id="subButton" onclick="resetar(value)" value="umJogador.html">resetar</button>
+            <button id="subButton" onclick="verPlacar()">ver placar</button>
+            <button id="subButton" onclick="zerar(value)" value="umJogador.html">Zerar placar</button>
+        </div>
+        <button id="voltar" onclick="voltar(value)" value="index.html">Voltar ao menu</button>
+    </div>
+</body>
+
+</html>
