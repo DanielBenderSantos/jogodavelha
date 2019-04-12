@@ -418,7 +418,7 @@ function resetar(link) {
 }
 
 function mudarBotao() {
-	if (numeroJogadas == 1) {
+	if (numeroJogadas == 0) {
 		if (mudar == 0) {
 			document.getElementById("b1").className = ("quadrado");
 			document.getElementById("b2").className = ("quadrado");
