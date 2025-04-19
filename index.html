@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>index</title>
+    <title>Dois jogadores</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/index.css">
     <script src="assets/js/index.js"></script>
 </head>
-<body>
-    <h1>Faça sua escolha</h1>
-    <div>
-        <a href="doisJogadores.html">
-            <button>Dois jogadores</button>
-        </a>
-        <a href="umJogador.html">
-            <button>Um jogador</button>
-        </a>
-        <a href="zeroJogadores.html">
-            <button>Zero jogadores</button>
-        </a>
+
+<body id="body">
+    <div id="responsivo">
+        <h1>Jogo da velha </h1>
+        
+        <div id="invisivel">
+            <p>
+                jogador 1:
+                <p id="saidaDoisJogadoresJogador1"> </p>
+            </p>
+                
+            <p>
+                jogador 2:
+                <p id="saidaDoisJogadoresJogador2">
+            </p>
+
+        </div>
+        <div>
+            <button id="subButton" onclick="mudarBotao()">Mudar estilo do botão</button>
+        </div>
+        <p id="vencedor"></p>
+        <div>
+            <div>
+                <button id="b1" class="redondo" onclick="jogada(0)"></button>
+                <button id="b2" class="redondo" onclick="jogada(1)"></button>
+                <button id="b3" class="redondo" onclick="jogada(2)"></button>
+            </div>
+
+            <div>
+                <button id="b4" class="redondo" onclick="jogada(3)"></button>
+                <button id="b5" class="redondo" onclick="jogada(4)"></button>
+                <button id="b6" class="redondo" onclick="jogada(5)"></button>
+            </div>
+
+            <div>
+                <button id="b7" class="redondo" onclick="jogada(6)"></button>
+                <button id="b8" class="redondo" onclick="jogada(7)"></button>
+                <button id="b9" class="redondo" onclick="jogada(8)"></button>
+            </div>
+        </div>
+        <div id="vez">
+            <p id ="vez"></p>
+        </div>
+        <div>
+            <button id="subButton" onclick="resetar(value)" value="index.html">resetar</button>
+            <button id="subButton" onclick="verPlacar()">ver placar</button>
+            <button id="subButton" onclick="zerar(value)" value="index.html">Zerar placar</button>
+        </div>
     </div>
 </body>
+
 </html>
