@@ -226,13 +226,11 @@ function verifica(valor) {
 		if (mat[0][0] != undefined) {
 			if (mat[0][0] == 0) {
 				document.getElementById("vencedor").innerHTML = ("Jogador 2 ganhou")
-				document.getElementById("body").id = "body2"
 				j2 = Number(localStorage.getItem("doisJogadoresJogador2")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador2", j2)
 			}
 			else {
 				document.getElementById("vencedor").innerHTML = ("Jogador 1 ganhou")
-				document.getElementById("body").id = "body2"
 				j1 = Number(localStorage.getItem("doisJogadoresJogador1")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador1", j1)
 			}
@@ -245,13 +243,11 @@ function verifica(valor) {
 		if (mat[1][0] != undefined) {
 			if (mat[1][0] == 0) {
 				document.getElementById("vencedor").innerHTML = ("Jogador 2 ganhou")
-				document.getElementById("body").id = "body2"
 				j2 = Number(localStorage.getItem("doisJogadoresJogador2")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador2", j2)
 			}
 			else {
 				document.getElementById("vencedor").innerHTML = ("Jogador 1 ganhou")
-				document.getElementById("body").id = "body2"
 				j1 = Number(localStorage.getItem("doisJogadoresJogador1")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador1", j1)
 			}
@@ -264,13 +260,11 @@ function verifica(valor) {
 		if (mat[2][0] != undefined) {
 			if (mat[2][0] == 0) {
 				document.getElementById("vencedor").innerHTML = ("Jogador 2 ganhou")
-				document.getElementById("body").id = "body2"
 				j2 = Number(localStorage.getItem("doisJogadoresJogador2")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador2", j2)
 			}
 			else {
 				document.getElementById("vencedor").innerHTML = ("Jogador 1 ganhou")
-				document.getElementById("body").id = "body2"
 				j1 = Number(localStorage.getItem("doisJogadoresJogador1")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador1", j1)
 			}
@@ -285,13 +279,11 @@ function verifica(valor) {
 		if (mat[0][0] != undefined) {
 			if (mat[0][0] == 0) {
 				document.getElementById("vencedor").innerHTML = ("Jogador 2 ganhou")
-				document.getElementById("body").id = "body2"
 				j2 = Number(localStorage.getItem("doisJogadoresJogador2")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador2", j2)
 			}
 			else {
 				document.getElementById("vencedor").innerHTML = ("Jogador 1 ganhou")
-				document.getElementById("body").id = "body2"
 				j1 = Number(localStorage.getItem("doisJogadoresJogador1")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador1", j1)
 			}
@@ -304,13 +296,11 @@ function verifica(valor) {
 		if (mat[0][1] != undefined) {
 			if (mat[0][1] == 0) {
 				document.getElementById("vencedor").innerHTML = ("Jogador 2 ganhou")
-				document.getElementById("body").id = "body2"
 				j2 = Number(localStorage.getItem("doisJogadoresJogador2")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador2", j2)
 			}
 			else {
 				document.getElementById("vencedor").innerHTML = ("Jogador 1 ganhou")
-				document.getElementById("body").id = "body2"
 				j1 = Number(localStorage.getItem("doisJogadoresJogador1")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador1", j1)
 			}
@@ -323,13 +313,11 @@ function verifica(valor) {
 		if (mat[0][2] != undefined) {
 			if (mat[0][2] == 0) {
 				document.getElementById("vencedor").innerHTML = ("Jogador 2 ganhou")
-				document.getElementById("body").id = "body2"
 				j2 = Number(localStorage.getItem("doisJogadoresJogador2")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador2", j2)
 			}
 			else {
 				document.getElementById("vencedor").innerHTML = ("Jogador 1 ganhou")
-				document.getElementById("body").id = "body2"
 				j1 = Number(localStorage.getItem("doisJogadoresJogador1")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador1", j1)
 			}
@@ -343,13 +331,11 @@ function verifica(valor) {
 		if (mat[0][0] != undefined) {
 			if (mat[0][0] == 0) {
 				document.getElementById("vencedor").innerHTML = ("Jogador 2 ganhou")
-				document.getElementById("body").id = "body2"
 				j2 = Number(localStorage.getItem("doisJogadoresJogador2")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador2", j2)
 			}
 			else {
 				document.getElementById("vencedor").innerHTML = ("Jogador 1 ganhou")
-				document.getElementById("body").id = "body2"
 				j1 = Number(localStorage.getItem("doisJogadoresJogador1")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador1", j1)
 			}
@@ -362,13 +348,11 @@ function verifica(valor) {
 		if (mat[0][2] != undefined) {
 			if (mat[0][2] == 0) {
 				document.getElementById("vencedor").innerHTML = ("Jogador 2 ganhou")
-				document.getElementById("body").id = "body2"
 				j2 = Number(localStorage.getItem("doisJogadoresJogador2")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador2", j2)
 			}
 			else {
 				document.getElementById("vencedor").innerHTML = ("Jogador 1 ganhou")
-				document.getElementById("body").id = "body2"
 				j1 = Number(localStorage.getItem("doisJogadoresJogador1")) + Number(1);
 				localStorage.setItem("doisJogadoresJogador1", j1)
 			}
@@ -381,7 +365,6 @@ function verifica(valor) {
 	console.log(numeroJogadas)
 	if ((numeroJogadas == 9) && (continua != 1)) {
 		document.getElementById("vencedor").innerHTML = ("Velha")
-		document.getElementById("body").id = "body3"
 		document.getElementById("vez").id = "invisivel"
 	}
 
